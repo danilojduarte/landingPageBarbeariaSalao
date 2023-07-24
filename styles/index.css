@@ -37,6 +37,23 @@ i {
     transform: translateY(-8px) scale(1.1);
   }
 }
+.header-button {
+  border: 1px solid #fff;
+  padding: 8px 24px;
+  border-radius: 4px;
+  background-color: transparent;
+  transition: background-color 0.8s;
+}
+
+.header-button:hover {
+  border: 1px solid #d34040;
+  background-color: #d34040;
+}
+
+.header-button a {
+  color: #fff;
+}
+
 body {
   font-family: "Sora", sans-serif;
   width: 100%;
