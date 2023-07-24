@@ -18,6 +18,17 @@ i {
 }
 
 .header-icons a:hover {
-    i{color: $red-light;
+    i{
+        animation: translateY 0.8s infinite alternate;
+        color: $red-light;
+    }
+}
+
+@keyframes translateY {
+    from {
+        transform: translateY(0) scale(1);
+    }
+    to {
+        transform: translateY(-8px) scale(1.1);
     }
 }
