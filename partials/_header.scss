@@ -33,6 +33,13 @@ i {
     }
 }
 
+.header-logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 14px;
+}
+
 .header-button {
     border: 1px solid $white-normal;
     padding: 8px 24px;
@@ -47,4 +54,17 @@ i {
 
 .header-button a {
     color: $white-normal;
+}
+
+
+@media screen and (max-width: 768px) {
+    .header-content {
+        width: 100%;
+        flex-direction: column;
+
+    }
+    .header-logo img {
+        width: 160px;
+        margin-top: 46px;
+    }
 }
