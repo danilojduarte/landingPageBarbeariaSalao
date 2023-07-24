@@ -61,10 +61,20 @@ i {
     .header-content {
         width: 100%;
         flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        transition: all .13s ease-in-out;
 
+        i{
+            margin-top: 18px;
+            font-size: 34px;
+        }
     }
     .header-logo img {
         width: 160px;
         margin-top: 46px;
+    }
+    .header-button {
+        display: none;
     }
 }
