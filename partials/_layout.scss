@@ -22,5 +22,31 @@
     background-repeat: no-repeat;
     background-position: 50% 0;
     opacity: 0.9;
+}
 
+// Bg-Home Finalizado
+
+// Hero
+
+.hero {
+    color: $white-normal;
+    min-width: 80vh;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 14px;
+
+    h1{
+        text-align: center;
+        line-height: 150%;
+        max-width: 940px;
+        font-size: 46px;
+    }
+    p {
+        text-align: center;
+        margin: 14px 0;
+
+    }
 }
