@@ -136,6 +136,18 @@ i {
   margin: 14px 0;
 }
 
+.button-contact:hover {
+  animation: scaleButton 0.8s alternate infinite;
+}
+
+@keyframes scaleButton {
+  from {
+    transform: scale(1);
+  }
+  to {
+    transform: scale(1.07);
+  }
+}
 body {
   font-family: "Sora", sans-serif;
   width: 100%;
