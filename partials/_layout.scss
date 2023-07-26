@@ -31,7 +31,7 @@
 
 .hero {
     color: $white-normal;
-    min-width: 80vh;
+    min-height: 80vh;
 
     display: flex;
     flex-direction: column;
@@ -39,12 +39,13 @@
     justify-content: center;
     padding: 14px;
 
-    h1{
+    h1 {
         text-align: center;
         line-height: 150%;
         max-width: 940px;
         font-size: 46px;
     }
+
     p {
         text-align: center;
         margin: 14px 0;
@@ -71,6 +72,7 @@
     from {
         transform: scale(1);
     }
+
     to {
         transform: scale(1.07);
     }
@@ -86,7 +88,8 @@
             padding: 0 14px;
             width: 100%;
         }
-        p{
+
+        p {
             font-size: 14px;
         }
     }
@@ -99,3 +102,47 @@
 }
 
 // Fim Hero
+
+
+// About
+
+.about {
+    background-color: $primary-normal;
+    overflow: hidden;
+    color: $white-normal;
+}
+
+.about-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 14px;
+    padding: 34px 14px 64px 14px;
+
+    img {
+        max-width: 570px;
+    }
+}
+
+.about-content div {
+    flex: 1;
+}
+
+.about-description {
+    h2 {
+        font-size: 38px;
+        margin-bottom: 24px;
+    }
+
+    p {
+        margin-bottom: 14px;
+        line-height: 150%;
+        text-align: justify;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .about-content {
+        flex-direction: column;
+    }
+}
