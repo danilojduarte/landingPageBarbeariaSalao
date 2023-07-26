@@ -83,6 +83,7 @@ i {
 .container {
   max-width: 1340px;
   margin: 0 auto;
+  padding: 0 8px;
 }
 
 .bg-home {
@@ -146,6 +147,24 @@ i {
   }
   to {
     transform: scale(1.07);
+  }
+}
+@media screen and (max-width: 768px) {
+  .hero {
+    min-height: 60vh;
+  }
+  .hero h1 {
+    font-size: 34px;
+    padding: 0 14px;
+    width: 100%;
+  }
+  .hero p {
+    font-size: 14px;
+  }
+}
+@media screen and (max-width: 480px) {
+  .hero h1 {
+    font-size: 24px;
   }
 }
 body {
