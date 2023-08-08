@@ -278,6 +278,9 @@ i {
   .haircurts {
     flex-direction: column;
   }
+  .haircurt img {
+    max-width: 740px;
+  }
 }
 body {
   font-family: "Sora", sans-serif;
