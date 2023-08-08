@@ -220,3 +220,10 @@
     border: 0;
     cursor: default;
 }
+
+// Responsividade Section Services
+@media screen and (max-width: 768px) {
+    .haircurts {
+        flex-direction: column;
+    }
+}

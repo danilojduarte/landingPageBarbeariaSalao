@@ -274,6 +274,11 @@ i {
   cursor: default;
 }
 
+@media screen and (max-width: 768px) {
+  .haircurts {
+    flex-direction: column;
+  }
+}
 body {
   font-family: "Sora", sans-serif;
   width: 100%;
