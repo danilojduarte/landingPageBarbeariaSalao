@@ -312,6 +312,31 @@ i {
   transform: scale(1.1);
 }
 
+.btn-whatsapp .tooltip-text {
+  visibility: hidden;
+  position: absolute;
+  width: 120px;
+  top: 8px;
+  left: -144px;
+  padding: 6px;
+  border-radius: 8px;
+  text-align: center;
+  background-color: #232224;
+  color: #fff;
+  opacity: 0;
+  transition: opacity 0.4s;
+}
+
+.btn-whatsapp:hover .tooltip-text {
+  visibility: visible;
+  opacity: 1;
+}
+
+@media screen and (max-width: 768px) {
+  .btn-whatsapp img {
+    max-width: 44px;
+  }
+}
 body {
   font-family: "Sora", sans-serif;
   width: 100%;
