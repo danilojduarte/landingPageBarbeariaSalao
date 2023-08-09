@@ -292,6 +292,22 @@ i {
   color: #fff;
 }
 
+.footer-icons {
+  display: flex;
+  gap: 8px;
+  color: #fff;
+}
+
+.btn-whatsapp {
+  position: fixed;
+  bottom: 24px;
+  right: 0;
+  z-index: 99;
+}
+.btn-whatsapp img {
+  max-width: 74px;
+}
+
 body {
   font-family: "Sora", sans-serif;
   width: 100%;

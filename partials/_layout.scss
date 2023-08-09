@@ -242,3 +242,21 @@
     gap: 24px;
     color: $white-normal;
 }
+
+.footer-icons {
+    display: flex;
+    gap: 8px;
+    color: $white-normal;
+}
+
+// btn-whatsapp
+.btn-whatsapp {
+    position: fixed;
+    bottom: 24px;
+    right: 0;
+    z-index: 99;
+
+    img {
+        max-width: 74px;
+    }
+}
